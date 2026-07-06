@@ -5,20 +5,24 @@ import java.util.Queue;
 public class RutaGastronomica extends ServicioTuristico{
     private int numeroDeParadas;
     private String tipo;
-    private int precio;
 
-    public RutaGastronomica(String nombre, String numeroHoras,
-                            int numeroDeParadas, String tipo, int precio) {
-        super(nombre, numeroHoras);
+    public RutaGastronomica(String nombre, String numeroHoras, double precio,
+                            int numeroDeParadas, String tipo) {
+        super(nombre, numeroHoras, precio);
         this.numeroDeParadas = numeroDeParadas;
         this.tipo = tipo;
-        this.precio = precio;
     }
 
     @Override
-    public String toString() {
-        return "Ruta Gastronómica [Número de paradas= " + numeroDeParadas +
-                "| Tipo= " + tipo + "| Precio= $" + precio + "]";
+    public void mostrarInfo() {
+        System.out.println("\n-Ruta Gastronómica-");
+        System.out.println("Nombre del Tour: " + nombre);
+        System.out.println("Duración: " + duracionHoras + " horas");
+        System.out.println("Precio: $" + precio);
+        System.out.println("Paradas: " + numeroDeParadas);
+        System.out.println("Tipo: " + tipo);
+
+
     }
 
 
