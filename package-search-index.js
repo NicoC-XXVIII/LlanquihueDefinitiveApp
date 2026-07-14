@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"cl.duoc.doo1.data"},{"l":"cl.duoc.doo1.model"},{"l":"cl.duoc.doo1.ui"}];updateSearchResults();
