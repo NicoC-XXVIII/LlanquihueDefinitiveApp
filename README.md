@@ -4,7 +4,7 @@
 ![Maven](https://img.shields.io/badge/Maven-Build-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-Aplicación Java profesional desarrollada como evaluación formativa en la asignatura DOO1 (Diseño Orientado a Objetos) del DUOC UC. Sistema de gestión de servicios turísticos de la región de Llanquihue.
+Aplicación Java desarrollada como evaluación formativa en la asignatura DOO1 (Diseño Orientado a Objetos) del DUOC UC. Sistema de gestión de servicios turísticos de la región del lago Llanquihue.
 
 ---
 
@@ -20,16 +20,19 @@ Aplicación Java profesional desarrollada como evaluación formativa en la asign
 - [Construcción y Empaquetamiento](#construcción-y-empaquetamiento)
 - [Documentación](#documentación)
 - [Autor](#autor)
+- [Licencia](#licencia)
 
 ---
 
 ## 📝 Descripción
 
-**LlanquihueDefinitiveApp** es una aplicación Java que forma parte de la evaluación formativa 4 de la asignatura DOO1. El proyecto implementa principios de Diseño Orientado a Objetos para gestionar diferentes tipos de servicios turísticos en la región de Llanquihue, tales como:
+**LlanquihueDefinitiveApp** es una aplicación Java que forma parte de la evaluación formativa 4 de la asignatura DOO1. El proyecto implementa principios de Diseño Orientado a Objetos para gestionar y mostrar distintos servicios turísticos disponibles en la región del lago Llanquihue.
 
-- **Excursiones Culturales:** Tours a lugares históricos con guías especializados
-- **Paseos Lacustres:** Experiencias en embarcaciones por el lago Llanquihue
-- **Rutas Gastronómicas:** Itinerarios culinarios con múltiples paradas
+Servicios incluidos (ejemplos):
+
+- **Excursiones Culturales:** Tours a lugares históricos con guías especializados.
+- **Paseos Lacustres:** Experiencias en embarcaciones por el lago Llanquihue.
+- **Rutas Gastronómicas:** Itinerarios culinarios con múltiples paradas.
 
 **Institución:** DUOC UC  
 **Asignatura:** DOO1 - Diseño Orientado a Objetos  
@@ -55,14 +58,14 @@ Aplicación Java profesional desarrollada como evaluación formativa en la asign
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 - **Java Development Kit (JDK):** Versión 23 o superior
-  - Descarga desde: [oracle.com/java](https://www.oracle.com/java/technologies/downloads/)
-  
+  - Descarga desde: https://www.oracle.com/java/technologies/downloads/
+
 - **Maven:** Versión 3.6.0 o superior
-  - Descarga desde: [maven.apache.org](https://maven.apache.org/download.cgi)
+  - Descarga desde: https://maven.apache.org/download.cgi
   - Verifica la instalación: `mvn --version`
 
 - **Git:** Para clonar el repositorio
-  - Descarga desde: [git-scm.com](https://git-scm.com/)
+  - Descarga desde: https://git-scm.com/
 
 ---
 
@@ -86,9 +89,10 @@ Deberías ver:
 .gitignore
 pom.xml
 src/
+README.md
 ```
 
-### 3. Instalar Dependencias
+### 3. Instalar Dependencias y Compilar
 
 ```bash
 mvn clean install
@@ -291,13 +295,13 @@ El proyecto sigue las convenciones estándar de Java:
 
 ## 📄 Licencia
 
-Este proyecto está disponible bajo la Licencia MIT. Para más información, consulta el archivo LICENSE (si está disponible).
+Este proyecto está disponible bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
 
 ## 🤝 Contribuciones
 
-Este es un proyecto de evaluación académica. Las contribuciones externas no están permitidas.
+Este es un proyecto de evaluación académica. Las contribuciones externas no están permitidas salvo indicación explícita del autor.
 
 ---
 
@@ -305,7 +309,7 @@ Este es un proyecto de evaluación académica. Las contribuciones externas no es
 
 Para preguntas o problemas relacionados con este proyecto:
 
-- 📧 Contacta a través de GitHub Issues
+- 📧 Usa GitHub Issues en este repositorio
 - 🏫 Consulta con tu profesor en la asignatura DOO1
 
 ---
@@ -314,9 +318,10 @@ Para preguntas o problemas relacionados con este proyecto:
 
 | Versión | Fecha | Descripción |
 |---------|-------|-------------|
-| 1.0-SNAPSHOT | 06-07-2026 | Actualización de documentación y comentarios en clases |
-| 1.0-SNAPSHOT | 28-06-2026 | Versión inicial del proyecto |
+| 1.0-SNAPSHOT | 14-07-2026 | Actualización de documentación y formato del README
+| 1.0-SNAPSHOT | 06-07-2026 | Actualización de documentación y comentarios en clases
+| 1.0-SNAPSHOT | 28-06-2026 | Versión inicial del proyecto
 
 ---
 
-**Última actualización:** 6 de julio de 2026
+**Última actualización:** 14 de julio de 2026
